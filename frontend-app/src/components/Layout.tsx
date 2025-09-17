@@ -1,11 +1,14 @@
 import type { ParentComponent } from 'solid-js';
+import Navbar from './Navbar';
+import Footer from './Footer';
+import "../styles/components/base/Layout.css"
 
 const Layout: ParentComponent = (props) => {
   return(
     <>
-    <header>This is a header</header>
+      <Navbar></Navbar>
       {props.children}
-    <footer>This is a footer</footer>
+      <Footer></Footer>
     </>
   );
 };

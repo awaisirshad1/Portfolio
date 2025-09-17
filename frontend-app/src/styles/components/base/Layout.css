@@ -1,0 +1,18 @@
+body {
+  margin: 40px;
+  background-color: #000000;
+  /* original blue */
+  /* color: #006FE2;  */
+  /* burnt orange */
+  /* color: #CC5500;  */
+  /* neon orange */
+  /* color: #FF5F1F; */
+  /* pumpkin orange */
+  /* color: #FF7518; */
+  /* blaze orange */
+  /* color: #FF6000; */
+}
+
+.container {
+  display: flex;
+}
