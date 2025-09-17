@@ -1,6 +1,7 @@
 body {
-  margin: 40px;
-  background-color: #000000;
+  /* margin: 40px; */
+  background-color: #FCF6F5;
+  color: #FCF6F5;
   /* original blue */
   /* color: #006FE2;  */
   /* burnt orange */
@@ -10,9 +11,15 @@ body {
   /* pumpkin orange */
   /* color: #FF7518; */
   /* blaze orange */
-  /* color: #FF6000; */
+  color: #FF6000;
+  /* dark purple */
+  /* color: #212B6F; */
 }
 
 .container {
   display: flex;
+}
+
+.main-content {
+  padding-top: var(--navbar-height);
 }

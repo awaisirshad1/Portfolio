@@ -7,7 +7,7 @@ const Layout: ParentComponent = (props) => {
   return(
     <>
       <Navbar></Navbar>
-      {props.children}
+      <div class="main-content">{props.children}</div>
       <Footer></Footer>
     </>
   );

@@ -1,10 +1,7 @@
-
-body {
-  margin: 40px;
-  background-color: #000000;
-  color: #006FE2;
-}
-
 .container {
   display: flex;
+}
+
+:root {
+  --navbar-height: clamp(60px, 4vh, 100px);
 }
