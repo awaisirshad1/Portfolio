@@ -1,5 +1,4 @@
 import { Component } from "solid-js";
-import Navbar from "../components/Navbar";
 
 const About: Component = () => {
   return (

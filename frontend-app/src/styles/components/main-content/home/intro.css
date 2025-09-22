@@ -1,0 +1,19 @@
+.intro-container {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.intro-paragraph {
+  padding: min(5em, 8%);
+  justify-content: center;
+  align-items: center;
+}
+
+.intro-header {
+  justify-content: center;
+  align-items: center;
+}
