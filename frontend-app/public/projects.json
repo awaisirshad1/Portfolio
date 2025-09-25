@@ -1,0 +1,9 @@
+[
+  {
+    "id":1,
+    "projectName":"MicroController Media Centre",
+    "description":"This project is an implementation of a micro controller based media centre application, offering 3 basic applications. It is designed to use Keil's RTOS API for multithreading and priorities. It's written and demoed on the ARM Cortex-M3 processor, NXP LPC1768 chipset and MCB1700 micro-controller board.",
+    "techStack":["C"],
+    "projectLink":"https://github.com/awaisirshad1/MicroController-Media-Centre"
+  }
+]

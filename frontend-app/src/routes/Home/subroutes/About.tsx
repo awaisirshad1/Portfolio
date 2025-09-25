@@ -1,9 +1,10 @@
 import { Component } from "solid-js";
+import "../../../styles/components/main-content/home/about.css"
 
 const About: Component = () => {
   return (
     <div>
-      <h1>About</h1>
+      <p class="about-section-header">About</p>
     </div>
   );
 };

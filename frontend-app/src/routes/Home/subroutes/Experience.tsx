@@ -26,7 +26,7 @@ const ExperienceComponent: Component = () => {
   })
 
   return (
-    <div>
+    <div class="experience-container-div">
       <p class="experience-section-header">Experience</p>
       <Timeline experiences={experiences()}></Timeline>
     </div>

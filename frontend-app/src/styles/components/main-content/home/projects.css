@@ -1,0 +1,36 @@
+.projects-container-div {
+  padding-top: 10px;
+}
+
+.projects-section-header {
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.proj-grid {
+  display: grid;
+  gap: 10px;
+  /* Default: 2 squares per row */
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+  max-width: 600px; /* Optional: control max size */
+  margin: 0 auto;
+}
+
+.square {
+  aspect-ratio: 1 / 1;
+  background-color: #4caf50;
+  border: 1px solid #333;
+}
+
+/* Below 60% of parent width, switch to 1 column */
+@media (max-width: 360px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .square {
+    width: 50%; /* Half-size of original parent */
+    margin: 0 auto;
+  }
+}

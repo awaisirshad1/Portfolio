@@ -20,16 +20,21 @@ const Home: Component = () => {
           <Experience></Experience>
         </div>
       </section>
-      
-      {/* <section id="projects">
-        <Projects></Projects>  
+      <section id="projects">
+        <div class="projects-section">
+          <Projects></Projects>  
+        </div>
       </section>
       <section id="about">
-        <About></About>
+        <div class="about-section">
+          <About></About>
+        </div>
       </section>
-      <section>
-        <Contact></Contact>
-      </section> */}
+      <section id="contact">
+        <div class="contact-section">
+          <Contact></Contact>
+        </div>
+      </section>
     </div>
   );
 };
