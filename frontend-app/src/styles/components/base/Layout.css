@@ -1,7 +1,9 @@
 body {
   /* margin: 40px; */
-  background-color: #FCF6F5;
-  color: #FCF6F5;
+  /* background-color: #FCF6F5; */
+  background-color: var(--primary-bg-color);
+  color: var(--primary-color);
+  /* color: #FCF6F5; */
   /* original blue */
   /* color: #006FE2;  */
   /* burnt orange */
@@ -11,7 +13,7 @@ body {
   /* pumpkin orange */
   /* color: #FF7518; */
   /* blaze orange */
-  color: #FF6000;
+  /* color: #FF6000; */
   /* dark purple */
   /* color: #212B6F; */
 }
@@ -21,5 +23,10 @@ body {
 }
 
 .main-content {
-  padding-top: var(--navbar-height);
+  margin-top: var(--navbar-height);
+  width: 100vw;
+  min-height: 75vh;
+  display: flex;
+  padding-top: 10vh;
+  justify-content: center;
 }

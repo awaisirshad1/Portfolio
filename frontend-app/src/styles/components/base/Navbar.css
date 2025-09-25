@@ -1,7 +1,21 @@
 
 nav {
   background-color: var(--primary-bg-color);
-  border-bottom: 1px solid var(--hover-color);
+  /* border-bottom: 1px solid var(--primary-bg-color); */
+  height: var(--navbar-height);
+}
+
+.navbar-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* ensures it's above other content */
+  /* background-color: white; required if content scrolls under it */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* optional: subtle shadow */
+  backdrop-filter: blur(10px);
+  background: rgba(99, 99, 99, 0.2); /* semi-transparent background */
+  -webkit-backdrop-filter: blur(10px); /* Safari support */
 }
 
 ul {
@@ -11,14 +25,21 @@ ul {
 
 nav .home-li {
   margin-right: auto;
+  font-weight: 300;
 }
 
 nav a {
+  height: 100%;
   display: flex;
   text-decoration: none;
   color: var(--primary-color);
   padding: 1em 2em;
   transition: background-color 150ms ease;
+  color: var(--grey-font-color);
+}
+
+.home-link {
+  color: var(--primary-color);
 }
 
 nav a:hover {

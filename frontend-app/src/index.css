@@ -8,11 +8,14 @@ html {
 
 :root {
   /* color settings */
-  --primary-color: #FF6000;
-  --primary-bg-color: #FCF6F5;
-  --hover-color: #E3D6D5;
+  --primary-color: #FFFFFF;
+  --secondary-color: #c0c2c9;
+  --name-color: #FF8905;
+  --grey-font-color: #9f9f9f;
+  --primary-bg-color: #000000;
+  --hover-color: #222222;
   font-family: 'Inter', sans-serif;
-  /* --navbar-height: clamp(60px, 4vh, 100px); */
+  --navbar-height: clamp(6vh, 4vh, 100px);
   /* --speed: 200ms; */
 }
 
@@ -25,6 +28,8 @@ html {
 body{
   min-height: 100vh;
   min-width: 100dvh;
+  justify-content: center;
+  align-items: center;
   background-color: (--primary-bg-color);
 }
 

@@ -1,0 +1,110 @@
+/* Timeline.css */
+.timeline {
+  position: relative;
+  padding: 20px 0;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 30px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: #e0e0e0;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 40px;
+  padding-left: 80px;
+}
+
+.timeline-marker {
+  position: absolute;
+  left: 22px;
+  top: 8px;
+  width: 16px;
+  height: 16px;
+  background: #2196f3;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 0 3px #e3f2fd;
+  z-index: 1;
+}
+
+.timeline-content {
+  background: #000000;
+  border-radius: 8px;
+  padding: 24px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e0e0e0;
+}
+
+.timeline-header {
+  margin-bottom: 16px;
+}
+
+.job-title {
+  margin: 0 0 8px 0;
+  color: #ffffff;
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.org-name {
+  margin: 0 0 8px 0;
+  color: #fffff0;
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+
+.date-range {
+  display: inline-block;
+  background: #f5f5f5;
+  color: #666;
+  padding: 4px 12px;
+  border-radius: 16px;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.description {
+  margin: 0;
+  color: var(--grey-font-color);
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .timeline {
+    padding: 20px 16px;
+  }
+  
+  .timeline::before {
+    left: 16px;
+  }
+  
+  .timeline-item {
+    padding-left: 50px;
+  }
+  
+  .timeline-marker {
+    left: 8px;
+  }
+  
+  .timeline-content {
+    padding: 20px;
+  }
+  
+  .job-title {
+    font-size: 1.1rem;
+  }
+  
+  .org-name {
+    font-size: 1rem;
+  }
+}

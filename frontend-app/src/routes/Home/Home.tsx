@@ -5,13 +5,22 @@ import About from "./subroutes/About";
 import Projects from "./subroutes/Projects";
 import Contact from "./subroutes/Contact";
 import "../../styles/components/home.css"
+import Experience from "./subroutes/Experience";
 
 const Home: Component = () => {
   return (
-    <div class="slide-fade-in">
+    <div class="home-div">
       <section id="intro">
-        <Intro></Intro>
+        <div class="intro-section">
+          <Intro></Intro>
+        </div>
       </section>
+      <section id="experience">
+        <div class="experience-section">
+          <Experience></Experience>
+        </div>
+      </section>
+      
       {/* <section id="projects">
         <Projects></Projects>  
       </section>
