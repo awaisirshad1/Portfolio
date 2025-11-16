@@ -5,7 +5,7 @@
     "jobTitle": "Software Engineer Intern",
     "startDate": "2025-05-05T00:00:00.000Z",
     "endDate": "2025-08-22T00:00:00.000Z",
-    "description": "Instrumented over 20 microservices with the OpenTelemetry Java Agent, configured Grafana dashboards for better observability of inter-service bottlenecks in performance. Increased automated regression test coverage to over 80%, reduced daily test times by 50% on average."
+    "description": "Used OpenTelemetry and Grafana's LGTM stack (Loki, Grafana, Tempo, Mimir) to instrument over 20 microservices with OpenTelemetry, resulting in better observability. Refactored existing regression tests to increase coverage to 80% and reduce execution times by 50%."
   },
   {
     "id": 2,

@@ -38,20 +38,19 @@
 }
 
 .school-link {
-  display: inline-block;
-  padding: 0.05rem 0;
-  box-shadow: inset 4px 0 0 0 #000000, inset -8px 0 0 0 #000000; /* left & right inner shadow to simulate padding */
+  border: 3px solid #000;
+  border-radius: 8px;
+  padding: 4px 2px;
+  display: inline;
   color: var(--primary-color);
   text-decoration: none;
-  border-radius: 8px;
   transition: background-color 0.3s ease, text-decoration 0.2s ease;
 }
 
 .school-link:hover {
-  background-color: #555555;     /* lighter gray on hover */
-  text-decoration: underline;    /* underline only on hover */
-  box-shadow: inset 4px 0 0 0 #555555, inset -8px 0 0 0 #555555;
-
+  background-color: #fff;
+  color: #000;
+  text-decoration: underline;
 }
 
 @keyframes slideFadeInBody {

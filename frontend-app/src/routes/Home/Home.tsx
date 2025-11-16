@@ -1,11 +1,11 @@
 import { Component } from "solid-js";
 import Navbar from "../../components/Navbar";
-import Intro from "./subroutes/Intro";
-import About from "./subroutes/About";
-import Projects from "./subroutes/Projects";
-import Contact from "./subroutes/Contact";
+import Intro from "./sections/Intro";
+import About from "./sections/About";
+import Projects from "./sections/Projects";
+import Contact from "./sections/Contact";
 import "../../styles/components/home.css"
-import Experience from "./subroutes/Experience";
+import Experience from "./sections/Experience";
 
 const Home: Component = () => {
   return (
