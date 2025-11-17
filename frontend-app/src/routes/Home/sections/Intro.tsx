@@ -1,6 +1,6 @@
 import { Component } from "solid-js";
 import "../../../styles/components/main-content/home/intro.css"
-import TopRightArrow from "../../../components/icons/TopRightArrow";
+import TopRightArrow from "../../../assets/icons/svg/arrow-up-right-md-svgrepo-com.svg"
 
 const Intro: Component = () => {
   return (
@@ -14,7 +14,9 @@ const Intro: Component = () => {
       <p class="intro-paragraph-2">
         <span class="background-text">Currently studying software engineering </span>
         <span>@</span>
-        <a class="school-link" href="https://www.torontomu.ca/" target="_blank">Toronto Metropolitan University.<TopRightArrow height={14} width={14}/></a>
+        <a class="school-link" href="https://www.torontomu.ca/" target="_blank">
+          Toronto Metropolitan University.<TopRightArrow height={14} width={14}/>
+        </a>
         
       </p>
       {/* <p class="intro-paragraph-2">
