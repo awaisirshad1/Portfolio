@@ -6,7 +6,9 @@ const Layout: ParentComponent = (props) => {
   return (
     <>
       <Header></Header>
-      <main>this is the main content</main>
+      <main>
+        {props.children}
+      </main>
       <Footer></Footer>
     </>
   )
