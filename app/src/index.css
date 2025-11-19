@@ -17,3 +17,26 @@
     border-color: var(--color-gray-200, currentcolor);
   }
 }
+
+html.light {
+  --bg-color: white;
+  --text-color: black;
+}
+
+html.dark {
+  --bg-color: black;
+  --text-color: white;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+
+/* 
+body {
+  background-color: var(--bg);
+  color: var(--text);
+} */
