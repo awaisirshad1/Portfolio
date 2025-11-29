@@ -1,7 +1,14 @@
 .header-nav {
   border: 3px solid yellow;
   display: flex;
-  justify-content: center;
-  /* min-height: 300px; */
+
+  --children-hover-color: grey;
   align-items: center;
+  justify-content: center;
 }
+
+.header-nav .dark-mode {
+  --children-hover-color: grey;
+}
+
+
