@@ -14,8 +14,7 @@
 .circle {
   width: 10px;
   height: 10px;
-  /* background-color: #007aff; */
-  border: 1px solid aqua;
+  border: 3px solid aqua;
   border-radius: 50%;
   position: absolute;
   top: 0;
@@ -27,14 +26,51 @@
   left: calc(100% - 10px);
 }
 
+.text-wrapper {
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
+.slide-in-right {
+  animation: slideRight 0.35s ease forwards;
+}
+
+@keyframes slideRight {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(-15%);
+    opacity: 1;
+  }
+}
+
+.slide-in-left {
+  animation: slideLeft 0.35s ease forwards;
+}
+
+@keyframes slideLeft {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(15%);
+    opacity: 1;
+  }
+}
+
+/*************************************************************************/
 /* tablets and desktops */
 @media (min-width: 768px) {
   .theme-selector-container {
-    width: 80px;
+    width: 75px;
     height: 20px;
   }
   .theme-button {
-    width: 80px;
+    width: 75px;
     height: 20px;
   }
   .circle {
@@ -49,11 +85,11 @@
 /* large desktops */
 @media (min-width: 1200px) {
   .theme-selector-container {
-    width: 120px;
+    width: 90px;
     height: 30px;
   }
   .theme-button {
-    width: 120px;
+    width: 90px;
     height: 30px;
   }
   .circle {
