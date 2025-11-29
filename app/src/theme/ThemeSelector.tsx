@@ -1,15 +1,22 @@
-import { Component } from "solid-js";
-import { Theme } from "../types/theme";
+import { Component, createSignal } from "solid-js";
+import "./themeselector.css"
 import { useTheme } from "./useTheme";
 
 export const ThemeSelector: Component = () => {
+  // custom hook
   const { theme, setTheme } = useTheme();
 
+  const [slider, setSlider] = createSignal(false);
+  const toggle = () => {
+    theme() === "dark" ? setTheme("light") : setTheme("dark");
+    setSlider(!slider());
+  }
+
   return (
-    <select value={theme()} onChange={(e) => setTheme(e.currentTarget.value as Theme)}>
-      <option value="system">System</option>
-      <option value="light">Light</option>
-      <option value="dark">Dark</option>
-    </select>
+    <div class="theme-selector-container">
+      <button class="theme-button" onClick={toggle}>
+        <div class={`circle ${slider() ? "slide" : ""}`}/>
+      </button>
+    </div>
   );
 };
