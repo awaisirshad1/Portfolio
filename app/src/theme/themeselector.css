@@ -26,42 +26,6 @@
   left: calc(100% - 10px);
 }
 
-.text-wrapper {
-  position: relative;
-  width: 100%;
-  text-align: center;
-}
-
-.slide-in-right {
-  animation: slideRight 0.35s ease forwards;
-}
-
-@keyframes slideRight {
-  from {
-    transform: translateX(-100%);
-    opacity: 0;
-  }
-  to {
-    transform: translateX(-15%);
-    opacity: 1;
-  }
-}
-
-.slide-in-left {
-  animation: slideLeft 0.35s ease forwards;
-}
-
-@keyframes slideLeft {
-  from {
-    transform: translateX(100%);
-    opacity: 0;
-  }
-  to {
-    transform: translateX(15%);
-    opacity: 1;
-  }
-}
-
 /*************************************************************************/
 /* tablets and desktops */
 @media (min-width: 768px) {

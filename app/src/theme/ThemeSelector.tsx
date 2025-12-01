@@ -6,7 +6,7 @@ export const ThemeSelector: Component = () => {
   // custom hook
   const { theme, setTheme } = useTheme();
 
-  const [slider, setSlider] = createSignal(false);
+  const [slider, setSlider] = createSignal(theme()==="dark");
   const toggle = () => {
     theme() === "dark" ? setTheme("light") : setTheme("dark");
     setSlider(!slider());
@@ -17,14 +17,6 @@ export const ThemeSelector: Component = () => {
       <button class="theme-button" onClick={toggle}>
         <div class={`circle ${slider() ? "slide" : ""}`}>
         </div>
-        <div class="text-wrapper">
-            <Show when={theme() === "dark"}>
-              <div class="slide-in-right">dark</div>
-            </Show>
-            <Show when={theme() === "light"}>
-              <div class="slide-in-left">light</div>
-            </Show>
-          </div>
       </button>
     </div>
   );
