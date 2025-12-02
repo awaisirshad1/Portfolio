@@ -7,7 +7,6 @@ const DropdownSection:ParentComponent = (props) => {
   const [open, setOpen] = createSignal(true);
   const toggleDropdown = () => {
     setOpen(!open());
-    console.log("value of open: ", open());
   }
   return (
     <div class="opblock">

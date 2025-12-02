@@ -14,17 +14,20 @@
 }
 
 .wrapper {
-
+  max-width: 1460px;
+  margin: 1em auto;
 }
 
 .header-nav-wrapper {
-  align-items: center;
   display: flex;
+  align-items: center;
   box-sizing: inherit;
 }
 
 .svg-logo-white {
+  margin-right: 10px;
   max-height: 40px;
+  max-width: 200px;
 }
 
 .search-bar-form {
@@ -41,7 +44,7 @@
   width: 100%;
   flex: 1;
   min-width: 100px;
-  width: 60vw;
+  width: 65vw;
   padding: 8px 10px;
   border: 2px solid #62a03f;
 }

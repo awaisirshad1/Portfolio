@@ -9,6 +9,7 @@
 }
 
 .section-header {
+  /* display: inline-flex; */
   color: #3b4151;
   font-family: sans-serif;
   font-size: 24px;
@@ -17,6 +18,8 @@
 }
 
 .section-header-div {
+  margin: 0 auto;
+  max-width: 1460px;
   display: inline-flex;
   width: 100%;
 }
@@ -28,7 +31,7 @@
 
 .section-expanded-arrows {
   display: inline-block; 
-  vertical-align: middle;
+  /* vertical-align: middle; */
   max-height: 20px;
   max-width: 20px;
 }

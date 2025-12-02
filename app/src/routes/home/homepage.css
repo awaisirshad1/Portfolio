@@ -58,6 +58,7 @@
 
 .link {
   display: block;
+  width: min-content;
   font-size: 12px;
   color: #4990e2;
   cursor: pointer;
