@@ -6,8 +6,15 @@ import './header.css'
 const Header = () => {
   return (
     <nav class='header-nav'>
-      
-      <ThemeSelector/>
+      <div class='wrapper'>
+        <div class='header-nav-wrapper'>
+          <FullLogoWhite class='svg-logo-white'/>
+          <form class='search-bar-form'>
+            <input type='text' class='search-bar-form-input'/>
+            <button class='search-bar-form-button'>Explore</button>
+          </form>
+        </div>
+      </div>
     </nav>
   );
 };

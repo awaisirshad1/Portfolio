@@ -1,14 +1,14 @@
-html.dark { 
+/* html.dark { 
   color: white;
   background: #111; 
-}
+} */
 html.light {
   color: black;
   background: #fff; 
 }
 
 /* fallback to prevent FOUC */
-html {
+/* html {
   color: white;
   background: #111;
-}
+} */

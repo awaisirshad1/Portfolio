@@ -1,0 +1,43 @@
+.opblock {
+  align-items: center;
+  border-bottom: 1px solid rgba(59, 65, 81, .3);
+  width: 100%;
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 20px 10px 10px;
+  transition: all .2s;
+}
+
+.section-header {
+  color: #3b4151;
+  font-family: sans-serif;
+  font-size: 24px;
+  margin: 0 0 5px;
+  font-weight: bold;
+}
+
+.section-header-div {
+  display: inline-flex;
+  width: 100%;
+}
+
+.section-description {
+  padding: 10px;
+  font-size: 14px;
+}
+
+.section-expanded-arrows {
+  display: inline-block; 
+  vertical-align: middle;
+  max-height: 20px;
+  max-width: 20px;
+}
+
+.menu-button {
+  cursor: pointer;
+  user-select: none;
+  padding: 10px;
+  background: #4990e2;
+  color: white;
+  width: 120px;
+}
