@@ -3,6 +3,7 @@ import GithubSvg from '../../assets/icons/svg/github-142-svgrepo-com.svg'
 import EmailSvg from '../../assets/icons/svg/email-1572-svgrepo-com.svg'
 import LinkedInSvg from '../../assets/icons/svg/linkedin-svgrepo-com.svg'
 import ResumeSvg from '../../assets/icons/svg/fellow-recruit-message-svgrepo-com.svg'
+import DropdownSection from '../../components/dropdown-section/DropdownSection'
 
 const HomePage = () => {
   return (
@@ -65,6 +66,7 @@ const HomePage = () => {
             </div>
           </div>
         </section>
+        <DropdownSection></DropdownSection>
       </div>
     </div>
   );
