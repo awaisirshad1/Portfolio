@@ -1,0 +1,115 @@
+.swagger-ui {
+  width: 100%;
+  unicode-bidi: isolate;
+}
+
+.information-container-wrapper {
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 1460px;
+  padding: 0 20px;
+  width: 100%;
+}
+
+.title-heading {
+  display: block;
+  color: #3b4151;
+  font-family: sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.title-heading span small{
+  vertical-align: top;
+}
+
+.info {
+  margin-top: 50px;
+}
+
+.version {
+  background: #7d8492;
+  border-radius: 57px;
+  display: inline-block;
+  font-size: 10px;
+  margin: 0 0 0 5px;
+  padding: 2px 4px;
+  position: relative;
+  vertical-align: super;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+.version-stamp {
+  background: #89bf04;
+  border-radius: 57px;
+  display: inline-block;
+  font-size: 10px;
+  margin: 0 0 0 5px;
+  padding: 2px 4px;
+  position: relative;
+  vertical-align: super;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+.link {
+  display: block;
+  font-size: 12px;
+  color: #4990e2;
+  cursor: pointer;
+}
+
+.description {
+  margin-top: 20px;
+  margin-bottom: 5px;
+  color: #3b4151;
+  font-family: sans-serif;
+}
+
+.description-paragraph {
+  margin: 1em auto;
+  display: block;
+  color: #3b4151;
+  font-size: 14px;
+  line-height: 1.2;  
+  word-break: break-word; 
+}
+
+.list-links{
+  margin: 1em auto;
+  display: block;
+  color: #3b4151;
+  font-size: 14px;
+  line-height: 1.2;  
+  word-break: break-word; 
+}
+
+.social-link {
+  display: inline-flex;
+  align-items: center;
+  color: #4990e2;
+  cursor: pointer;
+}
+
+
+.link-icon {
+  margin: 0 5px;
+  max-height: 26px;
+  max-width: 26px;
+}
+
+.linkedIn-icon {
+  margin: 5px 0;
+  max-height: 35px;
+  max-width: 35px;
+}
+
+.resume-icon {
+  margin: 5px 3px 2px 2px;
+  max-height: 30px;
+  max-width: 30px;
+}
