@@ -1,6 +1,7 @@
 .swagger-ui {
   width: 100%;
   unicode-bidi: isolate;
+  background-color: #fafafa;
 }
 
 .information-container-wrapper {

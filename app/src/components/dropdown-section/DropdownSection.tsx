@@ -14,7 +14,7 @@ const DropdownSection:ParentComponent = (props) => {
         <div class="section-header-div" onClick={toggleDropdown}>
           <h3 class="section-header">
             <a href="" class="section-header-a">
-              <span>Section Header</span>
+              <span>section header</span>
             </a>
             <small>
               <span class="section-description">description of section</span>
