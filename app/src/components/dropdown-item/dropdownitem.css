@@ -18,6 +18,7 @@
   max-height: 40x;
   align-items: center;
   padding: 5px;
+  cursor: pointer;
 }
 
 .item-title-container:focus{
@@ -74,7 +75,7 @@
 }
 
 .unlocked-icon {
-  max-width: 20px;
+  max-width: 15px;
   max-height: 20px;
-  margin: 0px 15px;
+  margin: 0px 5px;
 }
