@@ -2,6 +2,7 @@ import { createSignal, ParentComponent, Show } from "solid-js";
 import "./dropdownsection.css"
 import DownArrowSvg from "../../assets/icons/svg/down-arrow-backup-2-svgrepo-com.svg"
 import UpArrowSvg from "../../assets/icons/svg/down-arrow-backup-3-svgrepo-com.svg"
+import DropdownItem from "../dropdown-item/DropdownItem";
 
 const DropdownSection:ParentComponent = (props) => {
   const [open, setOpen] = createSignal(true);
@@ -28,7 +29,9 @@ const DropdownSection:ParentComponent = (props) => {
           </h3>
         </div>
         <Show when={open()}>
-          <div>hidden message is now visible</div>
+          <div>
+            <DropdownItem></DropdownItem>
+          </div>
         </Show>
       </div>
     </div>
