@@ -68,7 +68,7 @@ const HomePage = () => {
           </div>
         </section>
         <DropdownSection></DropdownSection>
-        <SchemasSection></SchemasSection>
+        {/* <SchemasSection></SchemasSection> */}
       </div>
     </div>
   );

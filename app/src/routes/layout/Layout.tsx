@@ -9,7 +9,6 @@ const Layout: ParentComponent = (props) => {
       <main>
         {props.children}
       </main>
-      <Footer></Footer>
     </div>
   )
 };
