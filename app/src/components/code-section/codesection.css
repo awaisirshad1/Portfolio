@@ -1,0 +1,45 @@
+.codesection-wrapper {
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.codeblock {
+  background: #2e2e2e;
+  padding: 16px;
+  border-radius: 6px;
+  overflow-x: auto;
+  --key-color: #eee;
+  color: var(--key-color);
+  font-family: "Source Code Pro", monospace;
+  font-size: 14px;
+  line-height: 1.45;
+  border: 1px solid #1f1f1f;
+}
+
+code {
+  white-space: pre;
+}
+
+.key {
+  color: var(--key-color);
+  font-weight: bold;
+}
+
+.string {
+  color: #9bf09c;
+}
+
+.number {
+  color: #c25e5d;
+}
+
+.boolean {
+  color: #fcc28c;
+  font-weight: bold;
+}
+
+.null {
+  color: #636f88;
+  font-style: italic;
+}
