@@ -1,6 +1,6 @@
 .opblock {
   align-items: center;
-  border-bottom: 1px solid rgba(59, 65, 81, .3);
+  /* border-bottom: 1px solid rgba(59, 65, 81, .3); */
   width: 100%;
   display: inline-block;
   padding: 10px 20px 10px 10px;

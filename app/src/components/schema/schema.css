@@ -1,0 +1,27 @@
+.schema-container {
+  --schema-background-color: #e8e8e8;
+  --schema-name-font-color: #505050;
+  --schema-text-color: #3b4151;
+  background-color: var(--schema-background-color);
+  border-radius: 5px;
+  margin: 20px 10px;
+  padding: 20px 20px;
+}
+
+.schema-name {
+  display: flex;
+  align-items: center;
+  color: var(--schema-name-font-color);
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.schema-name :hover {
+  cursor: pointer;
+}
+
+.schema-expand-arrows {
+  margin: 5px;
+  max-height: 13px;
+  max-width: 13px;
+}

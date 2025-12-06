@@ -4,6 +4,7 @@ import EmailSvg from '../../assets/icons/svg/email-1572-svgrepo-com.svg'
 import LinkedInSvg from '../../assets/icons/svg/linkedin-svgrepo-com.svg'
 import ResumeSvg from '../../assets/icons/svg/fellow-recruit-message-svgrepo-com.svg'
 import DropdownSection from '../../components/dropdown-section/DropdownSection'
+import SchemasSection from '../../components/schemas-section/SchemasSection'
 
 const HomePage = () => {
   return (
@@ -67,6 +68,7 @@ const HomePage = () => {
           </div>
         </section>
         <DropdownSection></DropdownSection>
+        <SchemasSection></SchemasSection>
       </div>
     </div>
   );

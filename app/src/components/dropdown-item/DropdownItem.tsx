@@ -16,7 +16,8 @@ const DropdownItem: ParentComponent = (props) => {
     myStr: "testing",
     innerVar: {
       anotherKey: "anotherVal"
-    }
+    },
+    testingArr: ["hello", "goodbye"]
   }
 
   return (
@@ -49,7 +50,7 @@ const DropdownItem: ParentComponent = (props) => {
           <div class="item-content-body-header-container">
             <span>header</span>
             <select class="mediatype-select">
-              <option value="dih">dih</option>
+              <option value="application/json">application/json</option>
             </select>
           </div>
           <div class="item-content-container">
