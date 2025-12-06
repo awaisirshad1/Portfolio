@@ -72,6 +72,8 @@
 }
 
 .item-content-top-text {
+  font-size: 14px;
+  font-family: sans-serif;
   padding: 30px 20px;
 }
 
@@ -120,6 +122,8 @@
 }
 
 .item-content-overview-description {
+  font-size: 14px;
+  font-family: sans-serif;
   padding: 20px;
 }
 
@@ -150,6 +154,8 @@
 }
 
 .item-content-body-title {
+  font-size: 14px;
+  font-family: sans-serif;
   padding-bottom: 8px;
 }
 
