@@ -4,6 +4,7 @@ export type Experience = {
   startDate: Date,
   endDate: Date,
   shortDescription: string,
-  summaryOpener: string, 
+  skills: Array<string>, 
+  techStack: Array<string>
   impactPoints: Array<string>
 }

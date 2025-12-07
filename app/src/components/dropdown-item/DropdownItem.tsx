@@ -44,11 +44,11 @@ const DropdownItem: ParentComponent = (props) => {
           </div>
           <div class="item-content-title-container item-content-title-container">
             <div class="item-content-underlined-text-container item-content-underlined-text-orange">
-              <span class="item-content-underlined-text">Tech stack</span>
+              <span class="item-content-underlined-text">Skills</span>
             </div>
           </div>
           <div class="item-content-overview-description">
-            Java, Spring Boot, TestNG, Cucumber, Grafana, OpenTelemetry
+            SKills vals
           </div>
           <div class="item-content-body-header-container">
             <span>Summary</span>
@@ -57,8 +57,8 @@ const DropdownItem: ParentComponent = (props) => {
             </select>
           </div>
           <div class="item-content-container">
-            <div class="item-content-body-title">summary opener</div>
-            <div class="item-content-body-label">impact statement placeholder</div>
+            <div class="item-content-body-title">Tech Stack</div>
+            <div class="item-content-body-label">Impact/accomplishments</div>
             <div class="item-content-body-json">
               <CodeSection code={JSON.stringify(myVar)}></CodeSection>
             </div>
