@@ -4,9 +4,13 @@ import EmailSvg from '../../assets/icons/svg/email-1572-svgrepo-com.svg'
 import LinkedInSvg from '../../assets/icons/svg/linkedin-svgrepo-com.svg'
 import ResumeSvg from '../../assets/icons/svg/fellow-recruit-message-svgrepo-com.svg'
 import DropdownSection from '../../components/dropdown-section/DropdownSection'
-import SchemasSection from '../../components/schemas-section/SchemasSection'
+import { Component } from 'solid-js'
 
-const HomePage = () => {
+const HomePage: Component = () => {
+  let projects;
+  let experiences;
+  const sections = [experiences, projects];
+  
   return (
     <div class='swagger-ui'>
       <div class='information-container-wrapper'>
@@ -30,9 +34,18 @@ const HomePage = () => {
                 Welcome to version 1.0.0 of my portfolio website, which I've modeled after the OpenAPI 3.0 specification. 
                 I'm a software engineer that works mainly with cloud native technologies and microservices. I have about 2
                 years of professional software development experience. My main technology stack is Spring Boot and Go for 
-                backend services, React and Typescript for the frontend and several cloud native technologies like Docker,
-                Kubernetes and Helm. I am an active contributor to the OpenTelemetry project. Feel free to learn more about
-                me through my highlighted experiences below.
+                backend services, React and Typescript for the frontend (though this website is built using SolidJS) and 
+                several cloud native technologies like Docker, Kubernetes and Helm. 
+              </p>
+              <p class='description-paragraph'>
+                A few open source projects that I am actively researching (with the intention to contribute to) are Apache 
+                Fory (formerly Apache Fury) and OpenTelemetry. Some projects that I am currently working on myself are The
+                Halal Food Bank, for which I'm developing web and mobile applications; and my capstone (senior engineering
+                project) for which I'm working with a large range of technologies including working with IoT fleets (MQTT),
+                cloud native technologies like Docker, and analytics tools like Grafana.
+              </p>
+              <p class='description-paragraph'>
+                Feel free to take a look around my website to learn more about me; or reach out using the links below :)
               </p>
               <p class='description-paragraph'>Some useful links:</p>
               <ul class='list-links'>
@@ -51,24 +64,23 @@ const HomePage = () => {
                 </li>
 
                 <li>
-                  <a target='_blank' href="https://github.com/awaisirshad1" class='social-link'>
+                  <a target='_blank' href="mailto:awaisirshadswe@gmail.com" class='social-link'>
                     <EmailSvg class='link-icon'></EmailSvg>
                     <span>Email</span>
                   </a>
                 </li>
 
-                <li>
+                {/* <li>
                   <a target='_blank' href="" class='social-link'>
                     <ResumeSvg class='resume-icon'></ResumeSvg>
                     <span>Resume</span>
                   </a>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
         </section>
         <DropdownSection></DropdownSection>
-        <SchemasSection></SchemasSection>
       </div>
     </div>
   );

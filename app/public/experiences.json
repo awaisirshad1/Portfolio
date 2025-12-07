@@ -1,0 +1,106 @@
+[
+
+  {
+    "orgName": "Citi",
+    "title": "Technology Summer Analyst",
+    "startDate": "2025-05-05T00:00:00.000Z",
+    "endDate": "2025-08-22T00:00:00.000Z",
+    "shortDescription": "My third internship at Citi. I was part of the devops, infrastructure and internal tools team, where I worked on applications made to serve Citi developers.",
+    "skills":["Backend Engineering", "Cloud Observability (o11y)", "Devops", "Infrastructure Engineering", "CI/CD", "Automation"],
+    "techstack": ["Java", "Spring Boot", "TestNG", "Cucumber", "MsSQL Server", "OpenTelemetry", "Grafana", "Docker", "Jenkins", "Helm", "ECS"],
+    "impactPoints": [
+      "Enhanced observability of applications by instrumenting 30+ Spring Boot microservices with OpenTelemetry, resulting in better observability and monitoring of service logs, metrics and traces",
+      "Automating daily API regression tests using JUnit, REST-Assured and TestNG, integrating results into testing dashboards of Citi’s internal framework and reducing test times by 50% on average",
+      "Implemented method-level security in Java and SQL to restrict user permissions using Spring Security, following a test driven development approach"
+    ]
+  },
+
+  {
+    "orgName": "DrawDream",
+    "title": "Full Stack Engineer Intern",
+    "startDate": "2025-02-19T00:00:00.000Z",
+    "endDate": "2025-04-02T00:00:00.000Z",
+    "shortDescription": "At DrawDream, I worked closely with the founders to develop their web-based education platform, catered towards tech workers. It offered services such as leetcode coaching, system design tutoring sessions and more.",
+    "skills": ["Storyboards", "Web development", "Fullstack development", "Rest APIs", "NoSQL Databases"],
+    "techstack": ["JavaScript", "React", "ExpressJS", "MongoDB", "NodeJS"],
+    "impactPoints": [
+      "Developed backend of an education/mentoring platform in React, MongoDB, ExpressJS, NodeJS, translating user stories and implementing features such as session booking, cancelling, integrating calendar updates, authentication and authorization using middleware",
+      "Managed the creation, time allocation of the tasks when given a broad goal, successfully completing all subtasks forming the overall task while providing guidance to a fellow intern"
+    ]
+  },
+
+  {
+    "orgName": "Citi",
+    "title":  "Technology Summer Analyst",
+    "startDate": "2024-05-06T00:00:00.000Z",
+    "endDate": "2025-08-23T00:00:00.000Z",
+    "shortDescription": "My second summer at Citi, during which I worked on the post-trade data analytics team. I worked on modernizing our CI/CD pipelines, automating infrastructure as well as contributing to data analysis pipelines.",
+    "skills": ["Backend Engineering", "Devops", "Automation", "CI/CD", "Infrastructure Engineering", "Data Analytics", "Vector Databases", "Docker", "Jenkins", "Helm", "ECS"],
+    "techstack": ["Java", "Python", "Jenkins", "UDeploy", "KDB+/Q", "Ansible", "Bash"],
+    "impactPoints": [
+      "Developed an application in python to automatically migrate 170+ pipelines from legacy CI/CD tools like Jenkins to Citi’s new inner-source CI/CD framework, saving hundreds of engineering hours and automating migrations",
+      "Used blackduck coverity to fail CI builds of Java components that contained vulnerabilities, preventing over 20 known open source vulnerabilities from making it to production",
+      "Configured Ansible and a python-based CD pipeline, writing Ansible playbooks and shell scripts to provision linux and unix servers, utilizing Ansible’s support for infratructure as code"
+    ]
+  },
+
+  {
+    "orgName": "Quadratic Sound",
+    "title": "Full Stack Engineer Intern",
+    "startDate": "2024-02-28T00:00:00.000Z",
+    "endDate": "2024-05-03T00:00:00.000Z",
+    "shortDescription": "At Quadratic sound, I worked as a fullstack engineer on a web application that was used for event management. I worked on enhancing features, adding REST API endpoints and automating some of our test steps.",
+    "skills": ["Fullstack development", "Rest APIs", "Storyboards", "NoSQL Databases"],
+    "techstack": ["TypeScript", "Svelte/SvelteKit", "Bun", "Pocketbase", "Auth0"],
+    "impactPoints": [
+      "Translated user stories into deliverables and implemented features in SvelteKit for an event management system",
+      "Automated test data seeding using TypeScript and JavaScript for easier testing of local builds and remote builds",
+      "Used SvelteKit’s support for API routes to implement REST APIs accepting JSON encoded payloads, integrating OAuth 2.0 for better endpoint security",
+      "Refactored existing svelte application for better semantic separation of concerns by separating business logic from presentation layers"
+    ]
+  },
+
+  {
+    "orgName": "ImmiCan",
+    "title": "Chatbot Engineering Intern",
+    "startDate": "2024-02-28T00:00:00.000Z",
+    "endDate": "2024-05-04T00:00:00.000Z",
+    "shortDescription": "At ImmiCan, I was part of the team responsible for designing and implementing a chatbot and RAG pipeline, connected to a knowledge-base of immigration resources useful for newcomes to Canada.",
+    "skills": ["Backend Engineering", "LLMs", "Natural Language Processing", "Vector Databases", "Retrieval Augmented Generation (RAG)"],
+    "techstack": ["Python", "Flask", "LangChain", "ChromaDB", "Llama2 70B", "OpenAI API"],
+    "impactPoints": [
+      "Designed and implemented a RAG pipeline using OpenAI’s Embedding API, Langchain, and ChromaDB with Llama2 70B to power a chatbot connected to a custom knowledge-base",
+      "Built a performant backend pipeline with Flask and optimized embedding workflows and retrieval logic using Langchain and ChromaDB, increasing response relevance"
+    ]
+  }, 
+
+  {
+    "orgName": "Citi",
+    "title": "Technology Summer Analyst",
+    "startDate": "2023-05-02T00:00:00.000Z",
+    "endDate": "2023-08-18T00:00:00.000Z",
+    "shortDescription": "My very first internship at Citi. I worked on the Citi Velocity Data capture & engineering team. My work consisted of data engineering, as well as monitoring and health checking critical services.",
+    "skills": ["Backend Engineering", "Cloud Observability (o11y)", "Data Analytics", "Automation"],
+    "techstack": ["Java", "Spring Boot", "AWS S3", "AWS Transfer", "Kafka", "Docker", "Jenkins", "Helm", "ECS", "AppDynamics"],
+    "impactPoints": [
+      "Implemented a health checking service using Spring Boot that monitored the status of critical downstream applications our team uses, automating health checks and alerts on these services, reducing downtime by 40%",
+      "Automated build and deployment of spring boot microservice using Docker, Jenkins, Helm, and ECS, implementing multi-stage builds and build caching to decrease deployment times" 
+    ]
+  },
+
+  {
+    "orgName": "Inwit",
+    "title": "Software Engineer",
+    "startDate": "2022-02-09T00:00:00.000Z",
+    "endDate": "2022-04-11T00:00:00.000Z",
+    "shortDescription": "At Inwit, I was introduced to the world of web and app development. I was part of the team working to develop a platform focused on sustainable takeout containers.",
+    "skills": ["Fullstack development", "Web development"],
+    "techstack": ["TypeScript", "React", "PHP"],
+    "impactPoints": [
+      "Refactored and separated code into components for better reusability",
+      "Implemented pages using React's core features like hooks, state management, etc.",
+      "Implemented a QR code scanner using React"
+    ]
+  }
+
+]

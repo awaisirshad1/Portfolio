@@ -18,7 +18,7 @@
   }
 }
 
-html.light {
+/* html.light {
   --bg-color: white;
   --text-color: black;
 }
@@ -26,10 +26,10 @@ html.light {
 html.dark {
   --bg-color: black;
   --text-color: white;
-}
+} */
 
 body {
-  background-color: var(--bg-color);
+  background-color: #fafafa;
   color: var(--text-color);
   transition: background-color 0.3s, color 0.3s;
 }

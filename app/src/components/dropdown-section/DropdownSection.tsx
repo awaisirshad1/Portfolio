@@ -4,7 +4,7 @@ import DownArrowSvg from "../../assets/icons/svg/down-arrow-backup-2-svgrepo-com
 import UpArrowSvg from "../../assets/icons/svg/down-arrow-backup-3-svgrepo-com.svg"
 import DropdownItem from "../dropdown-item/DropdownItem";
 
-const DropdownSection:ParentComponent = (props) => {
+const DropdownSection: ParentComponent = (props) => {
   const [open, setOpen] = createSignal(true);
   const toggleDropdown = () => {
     setOpen(!open());
@@ -15,10 +15,10 @@ const DropdownSection:ParentComponent = (props) => {
         <div class="section-header-div" onClick={toggleDropdown}>
           <h3 class="section-header">
             <a href="" class="section-header-a">
-              <span>section header</span>
+              <span>Work Experience</span>
             </a>
             <small>
-              <span class="section-description">description of section</span>
+              <span class="section-description">my professional career so far</span>
             </small>
             <Show when={open()}>
               <UpArrowSvg class="section-expanded-arrows"></UpArrowSvg>

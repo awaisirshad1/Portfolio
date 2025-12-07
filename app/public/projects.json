@@ -1,0 +1,60 @@
+[
+  {
+    "name": "Milton Halal Food Bank",
+    "techstack": ["Go", "TypeScript", "React", "SwiftUI", "Kotlin", "MongoDB", "Bun", "MongoDB", "DigitalOcean"],
+    "description": "Milton Halal Food Bank is an organization dedicated to fighting food insecurity in the greater milton locality. We serve over 170 families across 3 towns and 2 cities.",
+    "descriptionPoints": [
+      "Leading the development of mobile and web applications to digitize and streamline our ability to serve community members facing food insecurity",
+      "Implementing features like admin, volunteer and client views, OAuth 2.0, 2FA, etc.",
+      "Architected a backend in Go + MongoDB, frontend in React, mobile in Swift and Kotlin"
+    ],
+    "link": ""
+  },
+
+  {
+    "name": "Smart City Platform",
+    "techstack": ["Go", "TypeScript", "React", "EMQX", "OpenTelemetry", "Grafana"],
+    "description": "The smart city platform is a service that offers integrations for apps that would be present in a city with developed digital infrastructure. One such app that my fellow students and I are developing to demonstrate the capabilities of digital infrastructure is a drone traffic controller and management platform.",
+    "descriptionPoints": [
+      "Architected a microservice-based application that allows a city to direct and control drone traffic",
+      "Collaborating with classmates to implement said platform and drone traffic application, with my focus being the REST server in Go, drone telemetry communication components using EMQX",
+      "Contributing to the research and development of a custom drone or SDK-equipped raspberry Pi that can communicate via LTE to our platform via MQTT"
+    ],
+    "link": ""
+  },
+
+  {
+    "name": "MicroController Media Centre",
+    "techstack": ["C", "Keil MDK"],
+    "description": "A micro-controller based media centre application, developed using C and the Keil RTOS API. Made to run on the ARM Cortex-M3 CPU, using an MCB1700 board and an NPX LPC1768 chipset.",
+    "descriptionPoints": [
+      "Developed a media center in C, consisting of 3 apps; a game, photo gallery and an MP3 audio player on an ARM Cortex-M3 CPU on Keil’s MCB1700 board",
+      "Utilized Keil RTOS API and MDK (Micro-Controller development kit) and real time scheduling (RTX) libraries to implement a thread-based approach to switching between applications, freeing up memory on thread switches for less memory usage",
+      "Used ARM-processor based techniques like bit-banding and direct memory addressing to efficiently use limited memory"
+    ],
+    "link": "https://github.com/awaisirshad1/MicroController-Media-Centre"
+  },
+
+  {
+    "name": "Blockchain Voting System",
+    "techstack": ["Javascript", "React", "NextJS", "MongoDB", "Solidity", "Ganache", "Truffle"],
+    "description": "This project was a simple voting system that we deployed in a closed blockchain using Ganache and Truffle, used to simulate how distributed voting would work if one were to use the blockchain. While the system was centralized, the storage of data being decentralized provides transparency and real-time visibility where people would most appreciate in the real world. The purpose of this project was to demonstrate an ideal use of a distributed system in the real world.",
+    "descriptionPoints": [
+      "Wrote genesis block for voting on ethereum blockchain, using proof of stake, with gas limits and limited total currency",
+      "Authored API endpoints in javascript that implemented administration of elections and voter actions"
+    ],
+    "link": "https://github.com/Malshalab/Blockchain-Voting-System/tree/MondayNight"
+  },
+
+  {
+    "name": "Secure Banking System",
+    "techstack": ["Python"],
+    "description": "Secure banking system is a bare-bones project that demonstrates an implementation of symmetric-shared-key-based authentication between a bank and an ATM. It was the final project for our network security class.",
+    "descriptionPoints": [
+      "Implemented mutual authentication and secure key exchange between a client and server, using HMAC, PMS and encrypted AES encryption",
+      "Designed a simple session-key exchange protocol that could prevent replay and man-in-the-middle, as well as preventing eavesdropping and impersonation attacks",
+      "Used threading and locks to enable safe read and write access to a shared data source"
+    ],
+    "link": "https://github.com/Vikramprashar12/817-Project"
+  }
+]
