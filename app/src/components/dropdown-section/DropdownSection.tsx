@@ -9,6 +9,10 @@ const DropdownSection: ParentComponent = (props) => {
   const toggleDropdown = () => {
     setOpen(!open());
   }
+
+  const passedProps = props.children
+
+
   return (
     <div class="opblock">
       <div>

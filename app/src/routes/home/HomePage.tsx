@@ -2,15 +2,71 @@ import './homepage.css'
 import GithubSvg from '../../assets/icons/svg/github-142-svgrepo-com.svg'
 import EmailSvg from '../../assets/icons/svg/email-1572-svgrepo-com.svg'
 import LinkedInSvg from '../../assets/icons/svg/linkedin-svgrepo-com.svg'
-import ResumeSvg from '../../assets/icons/svg/fellow-recruit-message-svgrepo-com.svg'
+// import ResumeSvg from '../../assets/icons/svg/fellow-recruit-message-svgrepo-com.svg'
 import DropdownSection from '../../components/dropdown-section/DropdownSection'
-import { Component } from 'solid-js'
+import { Component, createSignal, onMount } from 'solid-js'
+import { Section } from '../../types/section'
+import { Experience } from '../../types/experience'
+import { Project } from '../../types/project'
 
 const HomePage: Component = () => {
-  let projects;
-  let experiences;
-  const sections = [experiences, projects];
-  
+  let projects: Array<Project>;
+  let experiences: Array<Experience>;
+  const [sections, setSections] = createSignal<Array<Section>>([]);
+
+  const loadExperiences = async () => {
+    try {
+      const response = await fetch("/experiences.json");
+      const data = await response.json();
+      experiences = data.map((exp: any) => ({
+        ...exp, 
+        startDate: new Date(exp.startDate),
+        endDate: new Date(exp.endDate)
+      }));
+      console.log(experiences);
+
+      setSections(prev => [
+        ...prev,
+        {
+          title: "Work Experience",
+          description: "My professional career so far",
+          items: experiences
+        } as Section
+      ])
+    }
+    catch(error) {
+      console.error("Error loading experiences: ", error);
+    }
+  }
+
+  const loadProjects = async () => {
+    try {
+      const response = await fetch("/projects.json");
+      const data = await response.json();
+      projects = data.map((proj: any) => ({
+        ...proj
+      }));
+      console.log(projects);
+
+      setSections(prev => [
+        ...prev, 
+        {
+          title: "Projects",
+          description: "Code I write in my free time outside of work",
+          items: projects
+        } as Section
+      ])
+    }
+    catch(error) {
+      console.error("Error loading projects: ", error);
+    }
+  }
+
+  onMount(() => {
+    loadExperiences();
+    loadProjects();
+  });
+
   return (
     <div class='swagger-ui'>
       <div class='information-container-wrapper'>
@@ -80,7 +136,7 @@ const HomePage: Component = () => {
             </div>
           </div>
         </section>
-        <DropdownSection></DropdownSection>
+        <DropdownSection sections={sections()}></DropdownSection>
       </div>
     </div>
   );
